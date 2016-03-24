@@ -7,4 +7,9 @@
     <referenceBlock name="content">
         <block template="content.phtml" class="Pulsestorm\JavascriptCssExample\Block\Main" name="pulsestorm_javascriptcssexample_block_main"/>
     </referenceBlock>
+    <referenceBlock name="head.additional">
+        <block template="head.phtml"
+               class="Pulsestorm\JavascriptCssExample\Block\Head"
+               name="pulsestorm_javascriptcssexample_block_head" />
+    </referenceBlock>
 </page>
