@@ -120,6 +120,8 @@ return array (
     'Magento_Wishlist' => 1,
     'Magento_WishlistSampleData' => 1,
     'Pulsestorm_FrontendTutorial1' => 1,
+    'Pulsestorm_HelloPestle' => 0,
     'Pulsestorm_HelloWorldMVVM' => 1,
+    'Pulsestorm_JavascriptCssExample' => 1,
   ),
 );
