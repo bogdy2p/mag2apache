@@ -52,14 +52,46 @@ class Customshipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier imp
         parent::__construct($scopeConfig, $rateErrorFactory, $logger, $data);
     }
 
+    /**
+     * 
+     * @param \Magento\Quote\Model\Quote\Address\RateRequest $request
+     * @return \Magento\Shipping\Model\Rate\Result
+     * @SupressWarnings(PHPMD.UnusedLocalVariable)
+     */
     public function collectRates(\Magento\Quote\Model\Quote\Address\RateRequest $request)
     {
-        
+        if (!$this->getConfigFlag('active')) {
+            return false;
+        }
+
+        $result = $this->_rateResultFactory->create();
+
+        $shippingPrice = $this->getConfigData('price');
+
+        $method = $this->_rateMethodFactory->create();
+
+        $method->setCarrier($this->code);
+        $method->setCarrierTitle($this->getConfigData('title'));
+
+        $method->setMethod($this->_code);
+        $method->setMethodTitle($this->getConfigData('name'));
+
+        $method->setPrice($shippingPrice);
+        $method->setCost($shippingPrice);
+
+        $result->append($method);
+
+        return $result;
     }
 
+    /**
+     * Return allowed shipping methods
+     *
+     * @return array
+     */
     public function getAllowedMethods()
     {
-
+        return [$this->_code => $this->getConfigData('name')];
     }
 //put your code here
 }
