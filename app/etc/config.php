@@ -124,5 +124,6 @@ return array (
     'Pulsestorm_HelloWorldMVVM' => 1,
     'Pulsestorm_JavascriptCssExample' => 1,
     'Pulsestorm_RequireJsTutorial' => 1,
+    'Pulsestorm_StartingWithLess' => 1,
   ),
 );
