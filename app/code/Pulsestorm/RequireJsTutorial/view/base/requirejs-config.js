@@ -3,4 +3,4 @@ var config = {
         "my_module":"Package_Module/my_module"
     }
 };
-alert("Done");
+console.log("Done");
