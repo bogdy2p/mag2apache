@@ -125,5 +125,6 @@ return array (
     'Pulsestorm_JavascriptCssExample' => 1,
     'Pulsestorm_RequireJsTutorial' => 1,
     'Pulsestorm_StartingWithLess' => 1,
+    'Pulsestorm_TutorialObjectManager1' => 1,
   ),
 );
