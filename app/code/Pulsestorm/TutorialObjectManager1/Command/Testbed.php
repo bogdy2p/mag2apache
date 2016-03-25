@@ -1,12 +1,13 @@
 <?php
-namespace Pulsestorm\TutorialObjectManager1\Command;
 
+namespace Pulsestorm\TutorialObjectManager1\Command;
 
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class Testbed extends AbstractCommand
 {
+
     protected function configure()
     {
         $this->setName('ps:tutorial-object-manager-1');
@@ -16,6 +17,15 @@ class Testbed extends AbstractCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $output->writeln("You did it!");
+        $manager         = $this->getObjectManager();
+        $object          = $manager->create('Pulsestorm\TutorialObjectManager1\Model\Example');
+        $object->message = 'Hello PHP!';
+        $output->writeln(
+            $object->getHelloMessage()
+        );
+        $object          = $manager->create('Pulsestorm\TutorialObjectManager1\Model\Example');
+        $output->writeln(
+            $object->getHelloMessage()
+            );
     }
 }
