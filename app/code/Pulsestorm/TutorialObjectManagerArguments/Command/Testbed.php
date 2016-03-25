@@ -32,8 +32,8 @@ class Testbed extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $this->output = $output;
-        $output->writeln("Installed!");          
-        // $this->showPropertiesForObject();
+//        $output->writeln("Installed!");
+         $this->showPropertiesForObject();
     }
     
     protected function showPropertiesForObject()
