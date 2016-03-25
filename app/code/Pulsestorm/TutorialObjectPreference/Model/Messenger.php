@@ -5,6 +5,8 @@ class Messenger
     protected $message_holder;
     public function __construct(MessageHolderInterface $mhi)
     {
+//        var_dump(get_class($mhi));
+//        exit;
         $this->message_holder = $mhi;
     }
     

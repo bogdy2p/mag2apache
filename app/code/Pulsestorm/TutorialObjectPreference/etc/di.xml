@@ -9,6 +9,9 @@
     
     <preference 
         for="Pulsestorm\TutorialObjectPreference\Model\MessageHolderInterface" 
-        type="Pulsestorm\TutorialObjectPreference\Model\English" />
-
+        type="Pulsestorm\TutorialObjectPreference\Model\Spanish" />
+    <preference 
+        for="Pulsestorm\TutorialObjectPreference\Model\Messenger" 
+        type="Pulsestorm\TutorialObjectPreference\Model\Messenger2"
+    />
 </config>
