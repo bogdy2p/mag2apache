@@ -1,1 +1,1 @@
-alert("SUCCESFULLY ADDED TESTJS!");
+//console.log("SUCCESFULLY ADDED TESTJS!");

@@ -1,1 +1,1 @@
-alert("HELLO WORLD from hello.js");
+console.log("HELLO WORLD from hello.js");
