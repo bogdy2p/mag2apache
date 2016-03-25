@@ -25,7 +25,7 @@ class Testbed extends Command
     protected function configure()
     {
         $this->setName("ps:tutorial-object-manager-arguments");
-        $this->setDescription("A command the programmer was too lazy to enter a description for.");
+        $this->setDescription("A command OBJECT MANAGERARGUMENTS the programmer was too lazy to enter a description for.");
         parent::configure();
     }
 
