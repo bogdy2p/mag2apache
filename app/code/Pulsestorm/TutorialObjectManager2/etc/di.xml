@@ -2,7 +2,7 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="testbedCommand" xsi:type="object">Pulsestorm\TutorialObjectManager2\Command\Testbed</item>
+                <item name="testbed2Command" xsi:type="object">Pulsestorm\TutorialObjectManager2\Command\Testbed2</item>
             </argument>
         </arguments>
     </type>

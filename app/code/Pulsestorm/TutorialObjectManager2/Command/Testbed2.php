@@ -5,12 +5,12 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class Testbed extends AbstractCommand
+class Testbed2 extends AbstractCommand
 {
     protected function configure()
     {
         $this->setName('ps:tutorial-object-manager-2');
-        $this->setDescription('A cli playground for testing commands');
+        $this->setDescription('A cli playground for testing commands2');
         parent::configure();
     }
 
