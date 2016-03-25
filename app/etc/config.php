@@ -123,5 +123,6 @@ return array (
     'Pulsestorm_HelloPestle' => 0,
     'Pulsestorm_HelloWorldMVVM' => 1,
     'Pulsestorm_JavascriptCssExample' => 1,
+    'Pulsestorm_RequireJsTutorial' => 1,
   ),
 );
