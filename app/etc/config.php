@@ -126,5 +126,6 @@ return array (
     'Pulsestorm_RequireJsTutorial' => 1,
     'Pulsestorm_StartingWithLess' => 1,
     'Pulsestorm_TutorialObjectManager1' => 1,
+    'Pulsestorm_TutorialObjectManager2' => 1,
   ),
 );
