@@ -2,7 +2,7 @@
 return array (
   'modules' => 
   array (
-    'MagePsycho_Customshipping' => 1,
+    'MagePsycho_Customshipping' => 0,
     'Magento_Store' => 1,
     'Magento_AdvancedPricingImportExport' => 1,
     'Magento_Directory' => 1,
