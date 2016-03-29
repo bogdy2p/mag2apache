@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <carriers>
+            <reea_fancourier2>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <price>0</price>
+                <model>Reea\Fancourier2\Model\Carrier\Fancourier2</model>
+                <name>Fixed</name>
+                <title>Fan Courier Magento2 Shipping</title>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </reea_fancourier2>
+        </carriers>
+    </default>
+</config>
