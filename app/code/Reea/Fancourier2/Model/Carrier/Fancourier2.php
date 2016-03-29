@@ -5,7 +5,7 @@ namespace MagePsycho\Fancourier2\Model\Carrier;
 use Magento\Quote\Model\Quote\Adress\RateRequest;
 
 /**
- * Description of Customshipping class
+ * Description of Fancourier2 class
  *
  * @author pbc
  */

@@ -130,5 +130,6 @@ return array (
     'Pulsestorm_TutorialObjectManager2' => 1,
     'Pulsestorm_TutorialObjectManagerArguments' => 1,
     'Pulsestorm_TutorialObjectPreference' => 1,
+    'Reea_Fancourier2' => 1,
   ),
 );
