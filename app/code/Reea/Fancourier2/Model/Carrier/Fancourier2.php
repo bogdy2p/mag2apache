@@ -1,6 +1,6 @@
 <?php
 
-namespace MagePsycho\Fancourier2\Model\Carrier;
+namespace Reea\Fancourier2\Model\Carrier;
 
 use Magento\Quote\Model\Quote\Adress\RateRequest;
 
