@@ -9,7 +9,7 @@
                 <model>Reea\Fancourier2\Model\Carrier\Fancourier2</model>
                 <name>Fixed</name>
                 <title>Fan Courier Magento2 Shipping</title>
-                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+                <specificerrmsg>This shipping method is not available. [verify Country:RO] To use this shipping method, please contact us.</specificerrmsg>
             </reea_fancourier2>
         </carriers>
     </default>
